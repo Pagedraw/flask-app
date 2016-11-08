@@ -31,4 +31,13 @@ Session(app)
 # configure CS50 Library to use SQLite database
 db = SQL("sqlite:///project.db")
 
-# Routes go here
+## Routes go here
+# A route should be of the form
+#
+# @app.route("/foo")
+# def foo():
+#     username = 'Garfunkel'
+#     return render_template("index.html", name=username)
+#
+# where "project/templates/index.html" is a file created automatically by Pagedraw.
+# Within the respective Pagedraw document, you can do {{ name }} which will print 'Garfunkel'
